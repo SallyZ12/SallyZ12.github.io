@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "** Is Tic Tac Toe Really A Game?**"
-date:   2017-07-16 17:45:07 +0000
+title:  "Is Tic Tac Toe Really A Game?"
+date:   2017-07-16 13:45:08 -0400
 ---
 
 
