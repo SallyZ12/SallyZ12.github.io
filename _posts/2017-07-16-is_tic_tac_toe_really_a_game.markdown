@@ -5,7 +5,7 @@ date:   2017-07-16 13:45:08 -0400
 ---
 
 
-So for the first module, we've spent a lot of time learning that a simple childhood game, Tic Tac Toe, is more than it really seems.  As we learn Ruby code, we  learn that this game is as challenging as going from playing a flutaphone in grade school (playing the game) to a playing an oboe in a concert hall (coding the game).  What other challenges in life have we taken for granted and now as we move through the FlatIron curriculum realize not is all as it seems.
+So for the first module, we've spent a lot of time learning that a simple childhood game, Tic Tac Toe, is more than it really seems.  As we learn Ruby code, we  learn that this game is as challenging as going from playing a flutaphone in grade school (playing the game) to playing an oboe in a concert hall (coding the game).  What other challenges in life have we taken for granted and now as we move through the FlatIron curriculum realize not is all as it seems.
 
 To play Tic Tac Toe on paper is as easy as assigning who the player's are:  who is "X" and who is "O", who goes first, the sequence starts, who ultimately has a winning combination or a draw occurs, and then you can choose to start over or go out and get an ice cream.
 
