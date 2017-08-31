@@ -11,18 +11,21 @@ Tennis like all sports is immersed in data.  Professional tennis maintains a ple
 
 What follows is a very small sample of a Hash for pro_players: 
 
-pro_players = {
-  roger_federer: {
-    current_ranking: 3,
-    career_matches_won: 1115,
-    grand_slames_won: 19
+```
+pro_players = { 
+  roger_federer: { 
+    current_ranking: 3, 
+    career_matches_won: 1115, 
+    grand_slames_won: 19 
+    } 
+    venus_williams: { 
+      current_ranking: 9, 
+      career_matches_won: 749, 
+      grand_slams_won: 7 
+    } 
   }
-  venus_williams: {
-    current_ranking: 9,
-    career_matches_won: 749,
-    grand_slams_won: 7
-  }
-}
+```
+
 
 From this data structure, I can easily find Roger Federer's current ranking or Venus Williams' number of grand slams won.
 
