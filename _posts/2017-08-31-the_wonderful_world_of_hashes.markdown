@@ -40,7 +40,7 @@ Looks like fun doesn't it!  If I want everything there is to know about Roger Fe
 ```
 pro_players[:roger_federer]
 ```
-I could also add other players and their attributes to the pro-player Hash, iterate over it and find players with current_rankings in the top 10 or add the attribute of career_prize_money and find every player with career_winnings over $100 millin or anything else I want to have access to and use.  This is the power of the Hash and how we can take vast amounts of data manipulate that data and have some form of control over the complex world in which we live.
+I could also add other players and their attributes to the pro-player Hash, iterate over it and find players with current_rankings in the top 10 or add the attribute of career_prize_money and find every player with career_winnings over $100 million or anything else I want to have access to and use.  This is the power of the Hash and how we can take vast amounts of data manipulate that data and have some form of control over the complex world in which we live.
 
 There is so much more to learn as I progress through the Full Stack Web Development Online Program,  but now that I've entered the world of Hashes--the future looks bright, but oh, so challenging!!
 
