@@ -121,7 +121,7 @@ end
 
 
 
-So at the end of the day, (1) the Utility Class uses:   :customer (setter/getter method) to reach out to the customer Class, (2) the Customer Class uses:  the #utility_name= method to bridge the customer/utlity relationship, and (3) the CSVImporter Class uses:  the #import method to get the customer name to the Customer Class.
+So at the end of the day, (1) the Utility Class uses  :customer (setter/getter method) to reach out to the customer Class, (2) the Customer Class uses  the #utility_name= method to bridge the customer/utlity relationship, and (3) the CSVImporter Class uses the #import method to get the customer name to the Customer Class.
 
 All of these Classes collaborate together, now it's time for the politicians of the world to do the same.
 
