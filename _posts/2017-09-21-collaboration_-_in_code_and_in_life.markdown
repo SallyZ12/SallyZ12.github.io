@@ -97,7 +97,7 @@ end
 The collaboration within the Customer Class is using the #utility_name= method, which is then used in the #self.new_by_filename method to associate a new_customer with a utility with the code: new_customer.utility_name = customer.
 
 
-However, there is another big piece of the puzzle, where do we get the data for all of the utilities and customers?  We need to pass a data file that lists Utilities across the country with their respective customers into an Importer Class to we can parse the data.  This file is in the .csv format and we will retrieve it from a specific directory path. This file will be parsed to eliminate the .csv and to retrieve the customer and the utility from the file and then import this data to use in the Customer Class above.
+However, there is another big piece of the puzzle, where do we get the data for all of the utilities and customers?  We need to pass a data file that lists Utilities across the country with their respective customers into an Importer Class to we can parse the data.  This file is in the .csv format and we will retrieve it from a specific directory path. This file will be parsed to eliminate the .csv and import this data to use in the Customer Class above.
 
 ```
 class CSVImporter
