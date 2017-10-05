@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Are Objects Really Metaphors for Life"
+title:      "Are Objects Really Metaphors for Life?"
 date:       2017-10-05 18:43:52 -0400
 permalink:  are_objects_really_metaphors_for_life
 ---
@@ -50,8 +50,11 @@ end
 ```
 
 Instances of Hurricanes can be created by:
-sandy= Hurricane.new("Sandy"),
+
+sandy = Hurricane.new("Sandy"),
+
 irma = Hurricane.new("Irma"),
+
 harvey = Hurricane.new("Harvey")
 
 To see the collection of Hurricanes - enter Hurricane.all
