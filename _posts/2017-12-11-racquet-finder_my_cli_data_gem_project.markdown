@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Racquet-Finder: My CLI Data Gem Project"
-date:       2017-12-11 17:30:41 +0000
+date:       2017-12-11 12:30:42 -0500
 permalink:  racquet-finder_my_cli_data_gem_project
 ---
 
@@ -19,7 +19,7 @@ My project now consisted of a Scraper Class,  Brand Class, Racquet Class and a C
 
 Before I integrated my code by calling methods from different Classes within another Class (my collarborating objects), I used "pry" to test my code and ran my code within bin/console.  However, once my objects began collaborating I had to run my code from the terminal without pry (ruby bin/racquet-finder).  I ran into a permissions problems trying to execute the program.  With an assist from a technical coach, read/write permissions to my files were added.  However, while the permissions were changed, I ran into an error that I ultimately figured out as the "version" requirement.  My environment file (which was named racquet_finder.rb) orignally had "require "racquet_finder/version", but when I changed it to 'require_relative './racquet_finder/version' my program executed.  This type of roadblock also occurred when I added the Brand class and had my objects collaborate, but my program would not run.  I realized  I needed to require my Brand class.
 
-For both the Brand class and Racquet classes, since the data provided on the website was large and clunky--not the best organized and not always containing the target data I needed, I added ranges to the Brand class constant and Racquet class variable so that a user would be presented with only the top 4 Brands of tennis racquets and top 6 of available tennis racquets by Brand.  
+For both the Brand class and Racquet classes, since the data provided on the website was large and clunky--not the best organized and not always containing the target data I needed, I added ranges to the Brand class variable and Racquet class variable so that a user would be presented with only the top 4 Brands of tennis racquets and top 6 of available tennis racquets by Brand.  
 
 
 My CLI was refactored from the pseudo code I started with from the beginning of this process.  This was a fun experience as each error message or output provided valuable information in which I could learn.  I started with a basic, here is a list of brands, select a brand and here is a list of tennis racquets by brand.  I ended up with:  select a brand of tennis racquet, this is the brand you picked and here is a list of tennis racquets, now select one of the racquets in the list and display that selection, and do you want to select again?.  
