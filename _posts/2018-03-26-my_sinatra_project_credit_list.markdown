@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Sinatra Project: Credit List"
-date:       2018-03-26 15:48:49 +0000
+date:       2018-03-26 11:48:50 -0400
 permalink:  my_sinatra_project_credit_list
 ---
 
@@ -23,9 +23,34 @@ While in my career I worked with developers to craft internal online systems tha
 
  3. First time Credit:  You must create a transaction at that time.  Alert for missing credit data and alert for missing transaction data.  No Credit or Transaction created.
  
- 4. New transaction with an existing Credit: If you do not select an existing Credit, alerted and no new Transction created.  Also, if transaction data missing alerted and no new Transaction created.
+ 4. New transaction with an existing Credit: If you do not select an existing Credit, alerted and no new Transction created.
+  This was my most challenging validation  since I kept focusing on a radio button selected or not rather than the actual code verifying whether or not the Credit existed as selected.   I split the validation into 2 parts, 1 for the Credit and 1 for the Transaction.
+ 
+ Here is the code that achieved this objective:
+ 
+  
+```
+  if  params[:transaction][:credit_id] == nil
+          flash[:message] = "You Must Select a Credit"
+            redirect '/transactions/new'
+          else
+
+          if params[:transaction][:name]== "" || params[:transaction][:series] == ""
+              flash[:message] = "You Must Enter Transaction Information"
+                redirect '/transactions/new'
+ 
+```
+ 
  
  5. Delete Credit:  If attempt to delete a Credit that has associated Transactions, you will be stopped and told to delete the transactions first before a Credit can be deleted.
+
+Here is the code that achieved this objective:
+
+```
+if !@credit.transactions.ids.empty?
+          flash[:message] = "To Delete A Credit You Must Delete the linked Transactions First! Select User Credits Only"
+          redirect "/credits/#{@credit.id}"
+```
 
 At the end of the day, this app is very basic, but it taught me about the integration of the database, models, controllers, views, and browser.  Data in via a form through a  route and data manipulation within that action and data out to another form is key to a succesful app.
 
