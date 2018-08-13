@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "My Rails Project: Portfolios"
-date:       2018-08-13 21:23:33 +0000
+date:       2018-08-13 17:23:34 -0400
 permalink:  my_rails_project_portfolios
 ---
 
@@ -15,6 +15,7 @@ The following is my Project Structure:
 2. Tables: users, credits, exposures, transactions
 3. Join Table: Exposures - joins users and credits and  includes attributes of limit and rating.
 4. Associations:
+
          User: has_many exposures, has_many credits through exposures, has_many transactions through exposures
 				 
 				 Credit: has_many exposures, has_many users through exposures, has_many transactions through exposures
