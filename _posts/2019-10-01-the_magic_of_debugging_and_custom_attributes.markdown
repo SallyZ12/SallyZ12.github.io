@@ -6,7 +6,7 @@ permalink:  the_magic_of_debugging_and_custom_attributes
 ---
 
 
-At the beginning, the idea of building from start to finish a Rails backend with a React/Redux frontend seemed insurmountable---so many pieces of the puzzle, so many unknowns. However, when you approach this Project methodically with a clear plan and an understanding your data,  the building blocks allow for success.
+At the beginning, the idea of building from start to finish a Rails backend with a React/Redux frontend seemed insurmountable---so many pieces of the puzzle, so many unknowns. However, when you approach this Project methodically with a clear plan and  an understanding of your data,  the building blocks allow for success.
 
 How many times have you drawn a picture of what you want your App screens to look like, with the flow from one screen to the next, and with the expection of "I'm inputting or grabbing data from "x "and I want it to look like "y" and end up on screen "z" "?  If you know what your data is expected to be from the beginning of the pipeline to the end, it is the foundation for successful coding.  How can you even test that your data remotely reflects what you input and then output when you don't have workable code to see in your browser?  The answer:  "Debugging"
 
