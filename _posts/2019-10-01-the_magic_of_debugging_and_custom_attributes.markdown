@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "The Magic of Debugging and Custom Attributes!"
-date:       2019-10-01 15:34:08 +0000
+date:       2019-10-01 11:34:08 -0400
 permalink:  the_magic_of_debugging_and_custom_attributes
 ---
 
 
 At the beginning, the idea of building from start to finish a Rails backend with a React/Redux frontend seemed insurmountable---so many pieces of the puzzle, so many unknowns. However, when you approach this Project methodically with a clear plan and an understanding your data,  the building blocks allow for success.
 
-How many times have you drawn a picture of what you want your App pages to look like, with the flow from one screen to the next, and with the expection of "I'm inputting or grabbing data from "x "and I want it to look like "y" and end up on page "z" "?  If you know what your data is expexcted to be from the beginning of the pipeline to the end, it is the foundation for successful coding.  How can you event test that your data remotely reflects what you input and then output when you don't have workable code to see in your browser?  The answer:  "Debugging"
+How many times have you drawn a picture of what you want your App screens to look like, with the flow from one screen to the next, and with the expection of "I'm inputting or grabbing data from "x "and I want it to look like "y" and end up on screen "z" "?  If you know what your data is expected to be from the beginning of the pipeline to the end, it is the foundation for successful coding.  How can you even test that your data remotely reflects what you input and then output when you don't have workable code to see in your browser?  The answer:  "Debugging"
 
 
 
@@ -94,7 +94,7 @@ def reservation_club
 
 ```
 
-I then add this custom attribute  reservation_club to the attribute list .  That's it, it's as simple as that.  I  can now access in the frontend a reservations' club name as easily as I can access a reservation's day and hour  and call {reservation.reservation_club} in my return statement.
+I then add this custom attribute  reservation_club to the attribute list .  That's it - it's as simple as that.  I  can now access in the frontend a reservation's club name as easily as I can access a reservation's day and hour  and call {reservation.reservation_club} in my return statement.
 
 
 
@@ -105,7 +105,7 @@ I then add this custom attribute  reservation_club to the attribute list .  That
 
  **Console.log**
 
-When you turn your attention to the frontend, console,log can be your best friend.   You can place a console,log just about any place.  I often placed a console.log in a functional component to see if  I was correctly passing "props" from the parent component.  You can also look at your React Dev tools to see this result as well. Console.log provides information on the specific variable  you specify.  You can drill down on an object and see the data passed from a parent component.  However, to gain more traction in a dynamic way use "debugger", which is a  complementary tool to console.log.
+When you turn your attention to the frontend, console.log can be your best friend.   You can place a console.log just about any place.  I often placed a console.log in a functional component to see if  I was correctly passing "props" from the parent component.  You can also look at your React Dev tools to see this result as well. Console.log provides information on the specific variable you specify.  You can drill down on an object and see the data passed from a parent component.  However, to gain more traction in a dynamic way use "debugger", which is a  complementary tool to console.log.
 
 
 
